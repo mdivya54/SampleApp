@@ -40,7 +40,6 @@ public class CustomAdapter extends BaseAdapter{
 
 	@Override
 	public View getView(int arg0, View arg1, ViewGroup arg2) {
-		
 		LayoutInflater i=LayoutInflater.from(c);
 		View v=i.inflate(R.layout.list_item, null);
 		TextView textView1=(TextView)v.findViewById(R.id.textView1);
