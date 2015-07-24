@@ -37,11 +37,11 @@ public class CustomAdapter extends BaseAdapter{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
+	
 	@Override
 	public View getView(int arg0, View arg1, ViewGroup arg2) {
-		LayoutInflater i=LayoutInflater.from(c);
-		View v=i.inflate(R.layout.list_item, null);
+		LayoutInflater ai=LayoutInflater.from(c);
+		View v=ai.inflate(R.layout.list_item, null);
 		TextView textView1=(TextView)v.findViewById(R.id.textView1);
 		textView1.setText(""+a.get(arg0));
 		return v;
